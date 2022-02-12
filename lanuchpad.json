@@ -1,0 +1,25 @@
+{
+  "title": "Launchpad and Cmd+Space",
+  "rules": [
+    {
+      "description": "Launchpad and Cmd+Space",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "vk_launchpad",
+              "modifiers": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
